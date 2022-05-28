@@ -11,7 +11,7 @@ function show_message() {
     }
     
     if (quotes[current_index].split('<br>').length > 6) {
-        f_s = 3
+        f_s -= 1.5
     }
 
     if (f_s < 1) {
