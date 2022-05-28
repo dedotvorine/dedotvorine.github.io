@@ -10,8 +10,8 @@ function show_message() {
         f_s = 4.5;
     }
     
-    if (quotes[current_index].split('<br>').length > 4) {
-        f_s -= (quotes[current_index].split('<br>').length - 4)
+    if (quotes[current_index].split('<br>').length > 6) {
+        f_s = 3
     }
 
     if (f_s < 1) {
